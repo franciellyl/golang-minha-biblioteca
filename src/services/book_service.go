@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/franciellyl/golang-minha-biblioteca/biblioteca/data"
-	"github.com/franciellyl/golang-minha-biblioteca/biblioteca/models"
+	"github.com/franciellyl/golang-minha-biblioteca/src/data"
+	"github.com/franciellyl/golang-minha-biblioteca/src/models"
 )
 
 func ListarLivros() []models.Book {

@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/franciellyl/golang-minha-biblioteca/biblioteca/controllers"
+	"github.com/franciellyl/golang-minha-biblioteca/src/controllers"
 	"github.com/gin-gonic/gin"
 )
 
