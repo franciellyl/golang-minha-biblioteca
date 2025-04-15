@@ -3,6 +3,7 @@ package controllers
 import (
 	"net/http"
 
+	"github.com/franciellyl/golang-minha-biblioteca/biblioteca/models"
 	"github.com/franciellyl/golang-minha-biblioteca/biblioteca/services"
 	"github.com/gin-gonic/gin"
 )
