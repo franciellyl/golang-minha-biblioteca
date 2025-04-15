@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/franciellyl/golang-minha-biblioteca/biblioteca/routes"
+	"github.com/franciellyl/golang-minha-biblioteca/src/routes"
 )
 
 func main() {

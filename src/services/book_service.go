@@ -16,3 +16,13 @@ func AdicionarLivro(book models.Book) models.Book {
 	data.Books = append(data.Books, book)
 	return book
 }
+
+func MarcarComoLido(id int) bool {
+	for i, l := range data.Books {
+		if l.ID == id {
+			data.Books[i].Lido = true
+			return true
+		}
+	}
+	return false
+}
