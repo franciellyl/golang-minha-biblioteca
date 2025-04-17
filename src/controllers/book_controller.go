@@ -37,3 +37,11 @@ func MarcarComoLido(c *gin.Context) {
 		c.JSON(http.StatusNotFound, gin.H{"erro": "Livro não encontrado"})
 	}
 }
+
+func Estatisticas(c *gin.Context) {
+	lidos, naoLidos := services.Estatisticas()
+	c.JSON(http.StatusOK, gin.H{
+		"lidos":     lidos,
+		"nao_lidos": naoLidos,
+	})
+}

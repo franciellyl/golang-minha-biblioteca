@@ -26,3 +26,14 @@ func MarcarComoLido(id int) bool {
 	}
 	return false
 }
+
+func Estatisticas() (lidos, naoLidos int) {
+	for _, l := range data.Books {
+		if l.Lido {
+			lidos++
+		} else {
+			naoLidos++
+		}
+	}
+	return
+}

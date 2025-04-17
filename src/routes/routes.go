@@ -11,7 +11,7 @@ func SetupRoutes() *gin.Engine {
 	r.GET("/livros", controllers.ListarLivros)
 	r.POST("/livros", controllers.AdicionarLivro)
 	r.PUT("/livros/:id/lido", controllers.MarcarComoLido)
-	// r.GET("/estatisticas", controllers.Estatisticas)
+	r.GET("/estatisticas", controllers.Estatisticas)
 
 	return r
 }
